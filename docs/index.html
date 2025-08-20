@@ -1,0 +1,78 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="stylesheet" href="./queries/queries.css" />
+
+    <title>Frontend Mentor | Browser extensions manager UI</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="top-header flex">
+          <div class="header-section">
+            <img src="./images/logo.svg" alt="Extensions Logo" class="logo" />
+          </div>
+
+          <div class="theme-toggle">
+            <img
+              src="./images/icon-moon.svg"
+              class="toggle-theme-moon"
+              id="themeIcon"
+              alt="Dark Theme Toggle"
+            />
+          </div>
+        </div>
+
+        <div class="nav-title-wrapper flex">
+          <h1 class="title">Extensions List</h1>
+
+          <nav class="navbar">
+            <ul class="filter flex">
+              <li class="filter-list">
+                <a href="#" class="filter-link active" data-filter="all">All</a>
+              </li>
+
+              <li class="filter-list">
+                <a href="#" class="filter-link" data-filter="active">Active</a>
+              </li>
+
+              <li class="filter-list">
+                <a href="#" class="filter-link" data-filter="inactive"
+                  >Inactive</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="container main-container">
+        <div id="loading">Loading extensions...</div>
+      </div>
+    </main>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
+      Coded by <a href="https://x.com/_tzienom" target="blank">Tzienom</a>.
+    </div>
+
+    <script src="scripts/main.js"></script>
+  </body>
+</html>
