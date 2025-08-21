@@ -5,8 +5,8 @@ const mockExtensions = [
     version: "3.15.1",
     description:
       "Block ads and trackers across the web for a faster, cleaner browsing experience.",
-    isActive: "true",
-    icon: "AB",
+    isActive: true,
+    logo: "AB",
   },
   {
     id: 2,
@@ -14,16 +14,16 @@ const mockExtensions = [
     version: "4.95.0",
     description:
       "Secure password manager and digital vault for all your online accounts.",
-    isActive: "true",
-    icon: "LP",
+    isActive: true,
+    logo: "LP",
   },
   {
     id: 3,
     name: "React Developer Tools",
     version: "4.25.0",
     description: "Debug React components and inspect the virtual DOM tree.",
-    isActive: "false",
-    icon: "RD",
+    isActive: false,
+    logo: "RD",
   },
   {
     id: 4,
@@ -31,8 +31,8 @@ const mockExtensions = [
     version: "14.1057.0",
     description:
       "AI-powered writing assistant that helps you write clearly and effectively.",
-    isActive: "true",
-    icon: "GR",
+    isActive: true,
+    logo: "GR",
   },
   {
     id: 5,
@@ -40,8 +40,8 @@ const mockExtensions = [
     version: "3.5.4",
     description:
       "Advanced eyedropper, color picker, gradient generator and color analyzer.",
-    isActive: "false",
-    icon: "CZ",
+    isActive: false,
+    logo: "CZ",
   },
   {
     id: 6,
@@ -49,8 +49,8 @@ const mockExtensions = [
     version: "0.7.1",
     description:
       "Format and validate JSON data with syntax highlighting and collapsible nodes.",
-    isActive: "true",
-    icon: "JS",
+    isActive: true,
+    logo: "JS",
   },
 ];
 
@@ -61,7 +61,7 @@ const appState = {
   isDarkMode: localStorage.getItem("darkMode") === "true",
 };
 
-const serverURL = "http://localhost:3000/extensions";
+const serverURL = "https://68a6f481639c6a54e9a0735c.mockapi.io/extensions";
 
 // Get extensions from server
 async function fetchExtensions() {

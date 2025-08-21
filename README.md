@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [See solution on Frontend Mentor](https://www.frontendmentor.io/solutions/browser-extensions-manager-ui-dV0VBg0thf)
+- Live Site URL: [See live site here](https://browser-extensions-manager-ui-main-two-blue.vercel.app/)
 
 ## My process
 
